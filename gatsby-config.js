@@ -1,0 +1,29 @@
+module.exports = {
+  siteMetadata: {
+    title: 'Alex J. Gustafson',
+  },
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Alex J. Gustafson Tech',
+        short_name: 'Alex Gustafson',
+        start_url: '/',
+        background_color: '#314963',
+        theme_color: '#314963',
+        display: 'minimal-ui',
+        icon: 'src/images/alex-logo.png', // This path is relative to the root of the site.
+      },
+    },
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+          rule: {
+            include: /svgs/
+          }
+      }
+    },
+  ],
+}
