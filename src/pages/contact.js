@@ -9,7 +9,8 @@ const Contact = () => (
       <h1 style={{marginTop:'2em'}}>Contact Alex</h1>
       <p>Let's work together!</p>
       <p>Fill out the form below and I'll get in touch next time I process my email. Thats most business days.</p>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>Your Name: <input type="text" name="name" /></label>   
         </p>
