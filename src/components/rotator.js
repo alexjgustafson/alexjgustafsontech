@@ -5,7 +5,7 @@ const Rotator = ( { isActive, item:{ headline, subheadline, content } } ) => (
         <h2>{ headline }</h2>
         <div className="about__content">
             <h3>{ subheadline }</h3>
-            { content.map( (paragraph, index) => <p key={index}>{ paragraph }</p> ) }
+            <div dangerouslySetInnerHTML={{ __html: content }} />
         </div>  
     </div>
 )

@@ -13,7 +13,7 @@ module.exports = {
         background_color: '#314963',
         theme_color: '#314963',
         display: 'minimal-ui',
-        icon: 'src/images/alex-logo.png', // This path is relative to the root of the site.
+        icon: 'src/images/alex-logo.png',
       },
     },
     'gatsby-plugin-offline',
@@ -25,5 +25,13 @@ module.exports = {
           }
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/homeservices`,
+        name: "homeservices",
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 }
