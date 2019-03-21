@@ -40,9 +40,9 @@ const rotatorContent = [
   },
 ];
 
-const skillsListOne = ['WordPress','PHP','JAMstack']
-const skillsListTwo = ['ES6','React','jQuery']
-const skillsListThree = ['CSS3','Sass','HTML5']
+const skillsListOne = ['Gatsby', 'JAMStack', 'WordPress','PHP', 'MySQL']
+const skillsListTwo = ['ES6','React', 'Vue', 'Angular', 'jQuery']
+const skillsListThree = ['CSS-in-JS', 'Gulp', 'CSS3','Sass','HTML5']
 
 class IndexPage extends Component {
 
