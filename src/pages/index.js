@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { FaWordpressSimple, FaExternalLinkAlt, FaGithub, FaEnvelope, FaArrowCircleRight } from 'react-icons/fa'
-import YouTube  from 'react-youtube'
+import { FaWordpressSimple, FaExternalLinkAlt, FaGithub, FaEnvelope } from 'react-icons/fa'
 import Layout from '../components/layout'
 import '../components/index.css'
 import About from '../components/about'
@@ -23,16 +22,6 @@ class IndexPage extends Component {
   }
 
   render(){
-    const videoOpts = () => {
-      const options = this.state.width < 1360 ? {
-        width: '320',
-        height: '195'
-      } : {
-        width: '640',
-        height: '390'
-      };
-      return options
-    }
 
     return(
     <Layout useH1={true}>
