@@ -57,21 +57,6 @@ class IndexPage extends Component {
           </div>
         </div>
       </section>
-      <section className="portfolio">
-        <div className="container portfolio__content">
-          <h2>Portfolio</h2>
-          <p>I've helped thousands of WordPress users (that's not hyperbole) and coded on hundreds of websites. Any portfolio I could list here would be about as fun as a resume. You don't have time for resumes. There's stuff to get done.</p>
-          <p>Send me a quick message with what you're working on. I'll package up some examples of similar work I've done and we can get the ball rolling on your next project.</p>
-          <Link to="/contact">Sounds Like a Plan! <FaArrowCircleRight /></Link>
-        </div>
-        <div className="container portfolio__video-wrapper">
-          <YouTube 
-            videoId='Mlj0JoT4fng'
-            opts={videoOpts()}
-          />
-          <p>I'm making an introductory video to just say, "Hi." For now enjoy this lovely shark video.</p>
-        </div>
-      </section>
     </Layout>
     )
   }
