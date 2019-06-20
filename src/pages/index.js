@@ -57,6 +57,16 @@ class IndexPage extends Component {
           </div>
         </div>
       </section>
+      <section className="testimonial">
+        <div className="container">
+          <div className="testimonial__quote-wrap" style={{padding: '0.5em', maxWidth: '40em', width: '100%', margin:"0 auto"}}>
+            <blockquote className="testimonial__quote" style={{backgroundColor: '#e4e5d1', padding: '1em'}}>"I am happy to give an enthusiastic recommendation for Alex’s work. His knowledge, experience, and attitude make him a valuable contributor through all phases of a development project, from planning and strategy through execution. On top of his strong work, his communication skills help keep the project moving smoothly and everyone up-to-date."</blockquote>
+            <p style={{textAlign:'right'}}>
+              <cite className="testimonial__cite" >Jon Reigelman, Creative Director at National Center for Families Learning</cite>
+            </p>
+          </div>
+        </div>
+      </section>
     </Layout>
     )
   }

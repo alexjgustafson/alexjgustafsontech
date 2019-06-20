@@ -115,6 +115,14 @@ textarea{
     margin-top: 1em;
 }
 
+.testimonial{
+    padding: 5em 0;
+}
+.testimonial__quote{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media screen and (min-width: 785px){
     .about__button{
         display: inline-block;
