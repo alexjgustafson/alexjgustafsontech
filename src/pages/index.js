@@ -7,9 +7,6 @@ import About from '../components/about'
 import SkillsList from '../components/skillslist'
 import Testimonial from '../components/testimonial'
 
-const skillsListOne = ['Gatsby', 'JAMStack', 'WordPress','PHP', 'MySQL']
-const skillsListTwo = ['ES6','React', 'Vue', 'Angular', 'jQuery']
-const skillsListThree = ['CSS-in-JS', 'Gulp', 'CSS3','Sass','HTML5']
 
 class IndexPage extends Component {
 
@@ -39,11 +36,11 @@ class IndexPage extends Component {
       <About />
       <section className="skills" style={{backgroundColor:'#5A5F69', color:'#fff', fontSize: '1.6rem', padding:'3em 0 1.6em'}}>
         <div className="container">
-          <h2 className="skills__headline" style={{fontSize: `1.3em`, marginBottom:'1.3em'}}>Proficiencies</h2>
+          <h2 className="skills__headline" style={{fontSize: `1.3em`, marginBottom:'1.3em'}}>Expertise</h2>
           <div className="skills__lists-wrapper">
-            <SkillsList list={skillsListOne} />
-            <SkillsList list={skillsListTwo} />
-            <SkillsList list={skillsListThree} />
+            <SkillsList list={['JavaScript','PHP','MySQL']} />
+            <SkillsList list={['CSS','HTML', 'Sass']} />
+            <SkillsList list={['React','Vue','WordPress']} />
           </div>
         </div>
       </section>
