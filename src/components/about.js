@@ -21,7 +21,7 @@ class About extends Component {
         return(
             <StaticQuery query={graphql`
                 query{
-                    allMarkdownRemark{
+                    allMarkdownRemark(sort: {fields: fileAbsolutePath}){
                         edges{
                             node {
                                 html
