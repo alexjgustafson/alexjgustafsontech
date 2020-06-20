@@ -1,8 +1,8 @@
 ---
 headline: "Front-End Developer"
-subheadline: "It just works. But it needs to work and juggle chainsaws at the same time."
+subheadline: "Accessible, Beautiful, and Fast."
 ---    
 
-After Automattic, I became a front-end developer at a local web agency. Pretty quickly I learned that every project needs a great deal of polish.
+Since 2017, I've handled front-end development for local agencies, startups, small businesses, and enterprise web applications. In all these contexts, consideration for how to make a web app, website, or PWA work as best as possible on any device takes professional effort. Oh and by the way, it needs to be stunningly beautiful.
 
-Sass, Gulp, Webpack, React, Gatsby... the front-end space advances everyday. But it's what I breath and I keep getting better. All in the name of making your stuff the coolest stuff whenever possible.
+Vue, React, Angular, Svelte, Preact... the front-end space advances everyday. But the princples of making a project work as best as possible for any human with any device remain the same. 
