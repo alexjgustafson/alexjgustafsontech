@@ -1,6 +1,6 @@
 ---
 headline: "Front-End Developer"
-subheadline: "Accessible, Beautiful, and Fast."
+subheadline: "Accessible, beautiful, and fast."
 ---    
 
 Since 2017, I've handled front-end development for local agencies, startups, small businesses, and enterprise web applications. In all these contexts, consideration for how to make a web app, website, or PWA work as best as possible on any device takes professional effort. Oh and by the way, it needs to be stunningly beautiful.
