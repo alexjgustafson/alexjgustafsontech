@@ -49,7 +49,7 @@ class IndexPage extends Component {
           <h2 style={{textAlign:'center'}}>Testimonials</h2>
           <Testimonial 
             quote="Alex is brilliant! He managed to cut down a time-consuming project into a quick website, and was delightful to work with all along the way. I will be working with Alex again and encourage you to, as well! He really knows his stuff and finishes projects with high quality and a 360-degree view on the outcome."
-            cite="Laser Malena-Webber, Doubleclicks Records"
+            cite="Laser Webber, Doubleclicks Records"
           />
           <Testimonial 
             quote="It's a pleasure working with Alex. His front end development expertise on a short timeline was exactly what we needed [...] A professional through the whole process."
