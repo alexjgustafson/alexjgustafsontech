@@ -53,4 +53,21 @@
         </div>
     </div>
 </section>
+<section class="container max-w-3xl mx-auto px-6 py-10 md:py-12 bg-blue-900 text-gray-100 md:rounded-lg">
+    <h2 id="contact" class="text-gray-100 sr-only">Contact</h2>
+    <div class="desktop hidden md:block">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePhvTzTzEYCYOyIBYtaqdH6EzWbHdGn5AD6dXUmMiW29BJtw/viewform?embedded=true" width="720" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div class="mobile md:hidden">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePhvTzTzEYCYOyIBYtaqdH6EzWbHdGn5AD6dXUmMiW29BJtw/viewform?embedded=true" width="300" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</section>
+<section class="container  max-w-6xl mx-auto px-6 py-10 md:py-12">
+    <h2>Links</h2>
+    <ul>
+        <li>Blog</li>
+        <li>Github</li>
+        <li>LinkedIn</li>
+    </ul>
+</section>
 @endsection
