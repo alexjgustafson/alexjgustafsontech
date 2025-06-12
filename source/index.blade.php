@@ -27,7 +27,7 @@
         <div class="mb-8 mx-3 px-2 md:w-1/3">
             <img src="/assets/img/brilliant.svg" class="h-20 w-20" alt="brilliant icon">
 
-            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">"Alex is brilliant!"</h3>
+            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">"Alex is Brilliant!"</h3>
 
             <blockquote>"Alex is brilliant! He managed to cut down a time-consuming project into a quick website, and was delightful to work with all along the way. I will be working with Alex again and encourage you to, as well! He really knows his stuff and finishes projects with high quality and a 360-degree view on the outcome."
             </blockquote>
