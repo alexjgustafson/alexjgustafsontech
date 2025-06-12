@@ -65,9 +65,9 @@
 <section class="container  max-w-6xl mx-auto px-6 py-10 md:py-12">
     <h2>Links</h2>
     <ul>
-        <li>Blog</li>
-        <li>Github</li>
-        <li>LinkedIn</li>
+        <li><a href="https://alexjgustafson.blog/">Blog</a></li>
+        <li><a href="https://github.com/alexjgustafson">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/alexgus/">LinkedIn</a></li>
     </ul>
 </section>
 @endsection
