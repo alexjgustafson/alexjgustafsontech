@@ -1,6 +1,23 @@
 # alexjgustafson.tech 
 Brochure site update June 2025
 
+# Deploy to Github Pages
+https://jigsaw.tighten.com/docs/deploying-your-site/
+
+> GitHub Pages is a free service for hosting static sites offered by GitHub. To get started, first read through the documentation to get an understanding of how the service works.
+>
+> The approach we use at Tighten for deploying Jigsaw sites to GitHub pages looks like this:
+>
+> Build your site for production
+> `npm run prod`
+> 
+> Commit the build_production folder to your repository
+> `git add build_production && git commit -m "Build for deploy"`
+> 
+> Use git subtree push to push just the build_production folder to your gh-pages branch
+> `git subtree push --prefix build_production origin gh-pages`
+
+
 # Jigsaw Docs Starter Template
 
 This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
