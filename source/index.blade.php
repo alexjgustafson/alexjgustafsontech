@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <img src="/assets/img/alex-logo.png" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 lg:mb-0 ">
+        <img src="/assets/img/alex-portrait.jpeg" alt="Owner and developer Alex Gustafson" class="w-64 h-64 mx-auto mb-6 lg:mb-0 rounded-full">
     </div>
 
     <hr class="block my-8 border lg:hidden">
