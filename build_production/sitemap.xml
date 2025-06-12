@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>https://alexjgustafson.tech/docs/algolia-docsearch</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://alexjgustafson.tech/docs/custom-404-page</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://alexjgustafson.tech/docs/customizing-your-site</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://alexjgustafson.tech/docs/getting-started</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://alexjgustafson.tech/docs/navigation</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://alexjgustafson.tech</loc>
+  <lastmod>2025-06-12T17:51:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+</urlset>
