@@ -1,76 +1,11 @@
 # alexjgustafson.tech 
-Brochure site update June 2025
-
-# Deploy to Github Pages
-https://jigsaw.tighten.com/docs/deploying-your-site/
-
-> GitHub Pages is a free service for hosting static sites offered by GitHub. To get started, first read through the documentation to get an understanding of how the service works.
->
-> The approach we use at Tighten for deploying Jigsaw sites to GitHub pages looks like this:
->
-> Build your site for production
-> `npm run prod`
-> 
-> Commit the build_production folder to your repository
-> `git add build_production && git commit -m "Build for deploy"`
-> 
-> Use git subtree push to push just the build_production folder to your gh-pages branch
-> `git subtree push --prefix build_production origin gh-pages`
-
-
-# Jigsaw Docs Starter Template
-
-This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
-
-[View a preview of the docs template.](http://jigsaw-docs-template.tighten.co/)
-
-## Installation
-
-After installing Jigsaw, run the following command from your project directory:
-
-```bash
-./vendor/bin/jigsaw init docs
-```
-
-This starter template includes samples of common page types, and comes pre-configured with:
-
-- A fully responsive navigation bar
-- A sidebar navigation menu
-- [Tailwind CSS](https://tailwindcss.com/), a utility CSS framework that allows you to customize your design without touching a line of CSS
-- [Purgecss](https://www.purgecss.com/) to remove unused selectors from your CSS, resulting in smaller CSS files
-- Syntax highlighting using [highlight.js](https://highlightjs.org/)
-- A script that automatically generates a `sitemap.xml` file
-- A search bar powered by [Algolia DocSearch](https://community.algolia.com/docsearch/), and instructions on how to get started with their free indexing service
-- A custom 404 page
+Brochure site update June 2025 using Jigsaw, a PHP static site generator.
 
 ---
 
-![Docs starter template screenshot](https://user-images.githubusercontent.com/357312/50345478-40170c00-04fd-11e9-856c-ad46d1ac45cb.png)
+# Development
 
----
-
-### Configuring your new site
-
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
-
-```php
-// config.php
-return [
-    'baseUrl' => 'https://my-awesome-jigsaw-site.com/',
-    'production' => false,
-    'siteName' => 'My Site',
-    'siteDescription' => 'Give your documentation a boost with Jigsaw.',
-    'docsearchApiKey' => '',
-    'docsearchIndexName' => '',
-    'navigation' => require_once('navigation.php'),
-];
-```
-
-> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
-
----
-
-### Adding Content
+## Adding Content
 
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in `navigation.php`.
 
@@ -87,9 +22,7 @@ section: content
 
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 
----
-
-### Adding Assets
+## Adding Assets
 
 Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the `source/_assets/` directory, and Laravel Mix will process them when running `npm run dev` or `npm run prod`. The processed assets will be stored in `/source/assets/build/` (note there is no underscore on this second `assets` directory).
 
@@ -98,8 +31,6 @@ Then, when Jigsaw builds your site, the entire `/source/assets/` directory conta
 Files that don't require processing (such as images and fonts) can be added directly to `/source/assets/`.
 
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
-
----
 
 ## Building Your Site
 
@@ -113,3 +44,45 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
+
+---
+
+# Deploy to Github Pages
+https://jigsaw.tighten.com/docs/deploying-your-site/
+
+> GitHub Pages is a free service for hosting static sites offered by GitHub. To get started, first read through the documentation to get an understanding of how the service works.
+>
+> The approach we use at Tighten for deploying Jigsaw sites to GitHub pages looks like this:
+>
+> Build your site for production
+> 
+> `npm run prod`
+> 
+> Commit the build_production folder to your repository
+> 
+> `git add build_production && git commit -m "Build for deploy"`
+> 
+> Use git subtree push to push just the build_production folder to your gh-pages branch
+> 
+> `git subtree push --prefix build_production origin gh-pages`
+
+---
+
+# Initial Jigsaw Setup
+
+[Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+
+This project was started from the Docs template provided by Jigsaw.
+
+Example: http://jigsaw-docs-template.tighten.co/)
+
+It was pre-configured with:
+
+- Responsive navigation bar
+- Sidebar navigation menu
+- [Tailwind CSS](https://tailwindcss.com/), a utility CSS framework that allows you to customize your design without touching a line of CSS
+- [Purgecss](https://www.purgecss.com/) to remove unused selectors from your CSS, resulting in smaller CSS files
+- Syntax highlighting using [highlight.js](https://highlightjs.org/)
+- A script that automatically generates a `sitemap.xml` file
+- A search bar powered by [Algolia DocSearch](https://community.algolia.com/docsearch/), and instructions on how to get started with their free indexing service
+- A custom 404 page
